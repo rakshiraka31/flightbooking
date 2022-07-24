@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking System</title>
+</head>
+<body>
+    <h1 style="color: brown;"> Flight Reservation System</h1>
+    <div>
+        <h3 style="border: 2px;"><strong>Fill up the below Form</strong> </h3>
+        
+    <form name="form" method="POST" action="create.php">
+        <div>
+            <label> <b>Select the Airlines</b>:</label><br>
+            
+                <input type="radio" id="airline1" value="shree" name="air">ShreeAirlines<br>
+                <input type="radio" id="airline2" value="budhha" name="air">Budhha Airlines<br>
+                <input type="radio" id="airline3" value="sita" name="air">Sita Airlines<br>
+                <input type="radio" id="airline4" value="nepal" name="air">Nepal Airlines<br>
+                <input type="radio" id="airline5" value="himalaya" name="air">Himalaya Airlines<br>
+            
+        </div>
+        <br><br>
+        <div>
+            <label for="fname">
+            First Name:</label>
+             <input type="text" id="fname" placeholder="Enter First Name" name="fname">
+            <label for="lname">Last Name:</label>
+             <input type="text" id="lname" placeholder="Enter Last Name"  name="lname">
+        
+        </div>
+        <br><br>
+        <div>
+            <label>
+            Gender: </label> <br>
+
+            <input type="radio" id="m" name="gender" value="male"> Male <br>
+            <input type="radio" id="f" name="gender" value="female"> Female<br>
+           
+        </div>
+        <br><br>
+        <div>
+            <label> Choose the Destination:</label><br>
+           
+            <input type="radio" id="ma" name="destination"  value="Kathmadu-Pokhara">Kathmadu-Pokhara<br>
+            <input type="radio" id="me" name="destination"  value="Kathamandu-Dhangadi">Kathamandu-Dhangadi<br>
+            <input type="radio" id="mi" name="destination"  value="Dhangadi-Kathmandu">Dhangadi-Kathmandu<br>
+            <input type="radio" id="mo" name="destination"  value="Pokhara-Kathmandu">Pokhara-Kathmandu<br>
+            
+             
+        </div>
+        <br><br>
+        <label>
+        Email:</label> <input type="text" name="email">
+                            <br><br>
+        
+        <div>
+            <label>
+            Contact Number:  </label>
+            <input type="number" id="contact"  name="contact">
+           
+        </div>
+        <br><br>
+        <div>
+            <label>
+             Address: </label>
+             <input type="text" id="address"  name="address">
+            
+        </div>
+        <br><br>
+        <div>
+            <label> Flight Time:</label><br>
+            
+            <input type="radio" id="fo" name="flight"  value="morning">8:00am<br>
+            <input type="radio" id="fp" name="flight"   value="afternoon">12:00pm<br>
+            <input type="radio" id="fu" name="flight"   value="day">3:00pm<br>
+            <input type="radio" id="fi" name="flight"   value="evening">7:00pm<br>
+            
+        </div>
+        <br><br>
+        <div>
+            <label>
+        
+            Number of Passenger:</label>
+             <input type="number" id="nopass"  name="nopass">
+        </div>
+        <br><br>
+        <div>
+            <label for="seat">Seat Number:</label> <input type="text" id="seat"  name="seat">
+        </div>
+        <br><br>
+        <div>
+            <label >  Payment Method: Online</label> <br><br>
+                
+                
+            <input type="radio" id="ri" name="payment"   value="esewa"> Esewa<br>
+            <input type="radio" id="ei" name="payment"    value="bank"> Bank Transfer<br> 
+            <input type="radio" id="gi" name="payment"    value="connectips"> ConnectIPS<br>
+            <input type="radio" id="ki" name="payment"    value="khalti"> Khalti<br>
+                
+                
+            </select>
+            <br>
+            <br>
+            <br>
+            <p1><b>For Offline Payment</b>, Passenger have to visit the Tickets counter before 1 hours of flight Time</p1>
+        </div>
+        <br><br>
+        <input type="submit" value="Submit" name="Submit">
+        
+    </div>
+</body>
+</html>
